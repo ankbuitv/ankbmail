@@ -821,8 +821,8 @@ API requests are rate limited based on your API Key configuration. Default limit
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-left text-gray-400 border-b border-gray-700">
-                    <th className="pb-2 pr-4">Code</th>
-                    <th className="pb-2 pr-4">HTTP Status</th>
+                    <th className="pb-2 pr-4">Mã</th>
+                    <th className="pb-2 pr-4">Trạng thái HTTP</th>
                     <th className="pb-2">{t("Description")}</th>
                   </tr>
                 </thead>

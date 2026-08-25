@@ -1,6 +1,6 @@
 <div align="center">
   <h1>𝐕𝐌𝐀𝐈𝐋.𝐃𝐄𝐕</h1>
-  <p><a href="https://discord.gg/d68kWCBDEs">Discord</a> · English | <a href="/README.md">简体中文</a></p>
+  <p><a href="https://discord.gg/d68kWCBDEs">Discord</a> · English | <a href="/README.md">简体中文</a> | <a href="/README.md">Tiếng Việt</a></p>
   <p>Temporary email service build with email worker.</p>
   </div>
 

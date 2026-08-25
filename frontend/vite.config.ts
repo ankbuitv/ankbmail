@@ -19,5 +19,7 @@ export default defineConfig({
       '/api': 'http://127.0.0.1:8787',
       '/config': 'http://127.0.0.1:8787',
     },
+    // 允许预览环境的主机访问开发服务器
+    allowedHosts: true,
   },
 });

@@ -1,37 +1,36 @@
-// 这个文件内容直接从您的 _h.about.tsx 迁移而来
 export function About() {
   return (
-    // 修复：移除 text-black 类，文本颜色将由父组件 InfoModal 控制
     <div>
       <div className="max-w-[1400px] ">
         <p className="mt-8">
-          <strong>Vmail.DEV </strong> is a Virtual temporary email service.{" "}
+          <strong>Vmail.DEV </strong> là dịch vụ email tạm thời ảo.{" "}
         </p>
         <p className="mt-4">
-          You can get a temporary email without revealing any personal
-          information, which greatly protects your privacy.{" "}
+          Bạn có thể tạo một email tạm thời mà không cần tiết lộ bất kỳ thông
+          tin cá nhân nào, giúp bảo vệ quyền riêng tư của bạn một cách tối đa.{" "}
         </p>
         <p className="mt-4">
-          It supports selecting one domain names, making it convenient for you
-          to use in different scenarios.{" "}
+          Dịch vụ hỗ trợ lựa chọn tên miền, thuận tiện cho bạn sử dụng trong
+          nhiều tình huống khác nhau.{" "}
         </p>
         <p className="mt-4">
-          100% running on the <strong>Cloudflare </strong> network, providing
-          you with a super-fast experience.{" "}
+          100% chạy trên nền tảng <strong>Cloudflare </strong>, mang đến cho bạn
+          trải nghiệm siêu nhanh.{" "}
         </p>
 
         <p className="mt-4">
-          Misuse of the temporary email service not only violates our terms of
-          service but can also impact the normal use of other users. We
-          encourage each user to use our services responsibly to ensure that
-          resources are allocated and used appropriately.
+          Việc lạm dụng dịch vụ email tạm thời không chỉ vi phạm điều khoản sử
+          dụng của chúng tôi mà còn có thể ảnh hưởng đến việc sử dụng bình
+          thường của những người dùng khác. Chúng tôi khuyến khích mỗi người
+          dùng sử dụng dịch vụ một cách có trách nhiệm để đảm bảo tài nguyên
+          được phân bổ và sử dụng hợp lý.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="copyrights">
-          <a href="#copyrights">Copyrights </a>
+          <a href="#copyrights">Bản quyền </a>
         </h2>
         <p className="mt-4">
-          All copyrights belong to{" "}
+          Toàn bộ bản quyền thuộc về{" "}
           <a href="https://vmail.dev" rel="nofollow">
             <strong>Vmail.DEV </strong>{" "}
           </a>
