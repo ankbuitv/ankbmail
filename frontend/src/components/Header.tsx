@@ -20,6 +20,7 @@ const languages = [
   { code: "pt", name: "Português", flag: "🇧🇷" },
   { code: "ru", name: "Русский", flag: "🇷🇺" },
   { code: "tr", name: "Türkçe", flag: "🇹🇷" },
+  { code: "vi", name: "Tiếng Việt", flag: "🇻🇳" },
   { code: "zh-TW", name: "繁體中文", flag: "🇹🇼" },
 ];
 

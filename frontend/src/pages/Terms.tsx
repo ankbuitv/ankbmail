@@ -1,118 +1,120 @@
-// 这个文件内容直接从您的 _h.terms.tsx 迁移而来
 export function Terms() {
   return (
-    // 修复：移除 text-black 类，文本颜色将由父组件 InfoModal 控制
     <div>
       <div className="max-w-[1400px] ">
         <p className="mt-8">
-          Welcome to Vmail.DEV! These Terms of Service ("Terms") govern your
-          access to and use of our website and services. By accessing or using
-          our services, you agree to be bound by these Terms. If you do not
-          agree to these Terms, please do not use our services.
+          Chào mừng bạn đến với Vmail.DEV! Điều khoản dịch vụ này ("Điều khoản")
+          quy định quyền truy cập và sử dụng trang web cùng dịch vụ của chúng
+          tôi. Bằng việc truy cập hoặc sử dụng dịch vụ của chúng tôi, bạn đồng
+          ý bị ràng buộc bởi các Điều khoản này. Nếu bạn không đồng ý với các
+          Điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="Collection of Information">
-          1. Description of Service
+          1. Mô tả dịch vụ
         </h2>
         <p className="mt-4">
-          Vmail.DEV is a minimalistic temporary email service that allows you to
-          obtain a temporary email address without disclosing any personal
-          information, ensuring the protection of your privacy. Our service
-          supports the selection of multiple domain names, providing you with
-          the convenience of using it in various scenarios. Additionally,
-          Vmail.DEV operates on the Cloudflare network, guaranteeing a
-          super-fast experience.
+          Vmail.DEV là dịch vụ email tạm thời tối giản, cho phép bạn có được một
+          địa chỉ email tạm thời mà không cần tiết lộ bất kỳ thông tin cá nhân
+          nào, đảm bảo bảo vệ quyền riêng tư của bạn. Dịch vụ của chúng tôi hỗ
+          trợ lựa chọn nhiều tên miền, mang lại sự tiện lợi khi sử dụng trong
+          nhiều tình huống khác nhau. Ngoài ra, Vmail.DEV hoạt động trên mạng
+          lưới Cloudflare, đảm bảo trải nghiệm siêu nhanh.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="Storage of Emails">
-          2. Usage Restrictions
+          2. Hạn chế sử dụng
         </h2>
         <p className="mt-4">
-          2.1 Availability: Please note that Vmail.DEV is not available in China
-          Mainland. We apologize for any inconvenience caused.
+          2.1 Khả dụng: Xin lưu ý rằng Vmail.DEV không khả dụng tại Trung Quốc
+          đại lục. Chúng tôi xin lỗi vì sự bất tiện này.
         </p>
         <p className="mt-4">
-          2.2 Copyright: All copyrights related to Vmail.DEV and its services
-          belong to Vmail.DEV. You may not copy, reproduce, distribute, modify,
-          or create derivative works of Vmail.DEV or any part thereof without
-          explicit permission from Vmail.DEV.
+          2.2 Bản quyền: Mọi bản quyền liên quan đến Vmail.DEV và dịch vụ của
+          nó đều thuộc về Vmail.DEV. Bạn không được sao chép, tái sản xuất,
+          phân phối, sửa đổi hoặc tạo các tác phẩm phái sinh từ Vmail.DEV hoặc
+          bất kỳ phần nào của nó khi chưa có sự cho phép rõ ràng của Vmail.DEV.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="Deletion of Emails">
-          3. User Responsibilities
+          3. Trách nhiệm của người dùng
         </h2>
         <p className="mt-4">
-          3.1 Registration: You are not required to register or provide any
-          personal information to use Vmail.DEV. However, you are solely
-          responsible for maintaining the confidentiality of any temporary email
-          addresses generated through our service.
+          3.1 Đăng ký: Bạn không bắt buộc phải đăng ký hoặc cung cấp bất kỳ
+          thông tin cá nhân nào để sử dụng Vmail.DEV. Tuy nhiên, bạn hoàn toàn
+          chịu trách nhiệm giữ bí mật các địa chỉ email tạm thời được tạo thông
+          qua dịch vụ của chúng tôi.
         </p>
         <p className="mt-4">
-          3.2 Prohibited Activities: While using Vmail.DEV, you agree not to
-          engage in any activities that may violate any applicable laws,
-          regulations, or these Terms. Prohibited activities include, but are
-          not limited to:
+          3.2 Các hành vi bị cấm: Khi sử dụng Vmail.DEV, bạn đồng ý không tham
+          gia vào bất kỳ hoạt động nào vi phạm pháp luật, quy định hiện hành
+          hoặc các Điều khoản này. Các hành vi bị cấm bao gồm nhưng không giới
+          hạn:
         </p>
         <ul className="mt-4">
-          <li>a) Sending spam or unsolicited emails. </li>
+          <li>a) Gửi thư rác hoặc email không được yêu cầu. </li>
           <li>
-            b) Interfering with or disrupting the operation of our services.
+            b) Gây nhiễu hoặc làm gián đoạn hoạt động của dịch vụ của chúng
+            tôi.
           </li>
           <li>
-            c) Attempting to gain unauthorized access to our systems or
-            networks.
+            c) Cố gắng truy cập trái phép vào hệ thống hoặc mạng lưới của chúng
+            tôi.
           </li>
         </ul>
 
         <h2 className="mt-8 text-2xl font-bold" id="Data Security">
-          4. Disclaimer of Warranty
+          4. Tuyên bố miễn trừ bảo hành
         </h2>
         <p className="mt-4">
-          Vmail.DEV is provided on an "as is" and "as available" basis. We do
-          not warrant that our services will be uninterrupted, error-free, or
-          secure. Your use of Vmail.DEV is at your own risk, and we disclaim all
-          warranties, whether express or implied, including but not limited to
-          warranties of merchantability, fitness for a particular purpose, and
-          non-infringement.
+          Vmail.DEV được cung cấp trên cơ sở "nguyên trạng" và "như hiện có".
+          Chúng tôi không bảo đảm rằng dịch vụ của chúng tôi sẽ không bị gián
+          đoạn, không có lỗi hoặc an toàn. Việc bạn sử dụng Vmail.DEV là do bạn
+          tự chịu rủi ro, và chúng tôi từ chối mọi bảo hành, dù là tường minh
+          hay ngụ ý, bao gồm nhưng không giới hạn các bảo hành về khả năng bán
+          được, sự phù hợp cho một mục đích cụ thể và không vi phạm quyền của
+          bên thứ ba.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="Third-Party Services">
-          5. Limitation of Liability
+          5. Giới hạn trách nhiệm
         </h2>
         <p className="mt-4">
-          To the maximum extent permitted by law, in no event shall Vmail.DEV or
-          its affiliates be liable for any indirect, incidental, special,
-          consequential, or punitive damages, including without limitation, loss
-          of profits, data, use, goodwill, or other intangible losses, resulting
-          from your access to or use of Vmail.DEV or any content or services
-          provided through Vmail.DEV.
+          Trong phạm vi tối đa mà pháp luật cho phép, trong mọi trường hợp,
+          Vmail.DEV hoặc các công ty liên kết sẽ không chịu trách nhiệm về mọi
+          thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc mang tính
+          trừng phạt, bao gồm nhưng không giới hạn việc mất lợi nhuận, dữ liệu,
+          khả năng sử dụng, uy tín hoặc các tổn thất vô hình khác, phát sinh từ
+          việc bạn truy cập hoặc sử dụng Vmail.DEV hoặc bất kỳ nội dung, dịch vụ
+          nào được cung cấp thông qua Vmail.DEV.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="">
-          6. Modification of Terms
+          6. Sửa đổi điều khoản
         </h2>
         <p className="mt-4">
-          We reserve the right to modify these Terms at any time, without prior
-          notice. Any changes to the Terms will be effective immediately upon
-          posting. Your continued use of Vmail.DEV after the posting of any
-          modified Terms constitutes your acceptance of such changes.
+          Chúng tôi có quyền sửa đổi các Điều khoản này bất cứ lúc nào mà không
+          cần báo trước. Mọi thay đổi đối với Điều khoản sẽ có hiệu lực ngay khi
+          được đăng tải. Việc bạn tiếp tục sử dụng Vmail.DEV sau khi các Điều
+          khoản sửa đổi được đăng tải đồng nghĩa với việc bạn chấp nhận những
+          thay đổi đó.
         </p>
 
         <h2 className="mt-8 text-2xl font-bold" id="Cookies">
-          7. Governing Law and Jurisdiction
+          7. Luật điều chỉnh và thẩm quyền tài phán
         </h2>
         <p className="mt-4">
-          These Terms shall be governed by and construed in accordance with the
-          laws of the jurisdiction where Vmail.DEV is located. Any disputes
-          arising out of or in connection with these Terms shall be subject to
-          the exclusive jurisdiction of the courts in that jurisdiction.
+          Các Điều khoản này sẽ được điều chỉnh và giải thích theo luật pháp của
+          khu vực tài phán nơi Vmail.DEV đặt trụ sở. Mọi tranh chấp phát sinh từ
+          hoặc liên quan đến các Điều khoản này sẽ thuộc thẩm quyền xét xử độc
+          quyền của các tòa án tại khu vực tài phán đó.
         </p>
 
         <p className="mt-4">
-          If you have any questions or concerns regarding these Terms, please
-          contact us.
+          Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về các Điều khoản này,
+          vui lòng liên hệ với chúng tôi.
         </p>
-        <p className="mt-8">Last updated: 2024-04-10</p>
+        <p className="mt-8">Cập nhật lần cuối: 2024-04-10</p>
       </div>
     </div>
   );

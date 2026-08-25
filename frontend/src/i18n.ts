@@ -23,7 +23,7 @@ i18n
     // 默认的命名空间
     defaultNS: "common",
     // 支持的语言列表
-    supportedLngs: ["en", "zh", "fr", "ja", "hi", "de", "ko", "zh-TW", "it", "pt", "tr", "ru"],
+    supportedLngs: ["en", "zh", "fr", "ja", "hi", "de", "ko", "zh-TW", "it", "pt", "tr", "ru", "vi"],
     // React 已经处理了转义，所以这里不需要
     interpolation: {
       escapeValue: false,
